@@ -1,3 +1,17 @@
 body {
     background-color: rgb(253, 245, 226);
   }
+
+#content {
+    font-size: large;
+}
+
+.image-placeholder {
+    background-color: rgb(46, 18, 18);
+    height: 250px;
+    color: white;
+}
+
+.image-placeholder > h1 {
+    text-align: center;
+}

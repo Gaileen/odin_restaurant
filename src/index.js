@@ -1,2 +1,5 @@
 import "./styles.css";
-console.log("I am running!");
+
+import onPageload from "./homepage";
+
+onPageload();
