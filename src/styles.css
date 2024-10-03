@@ -1,7 +1,15 @@
 body {
     background-color: rgb(253, 245, 226);
-  }
+}
 
+/* header styles */
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+
+/* body content styles */
 #content {
     font-size: large;
 }
@@ -10,8 +18,9 @@ body {
     background-color: rgb(46, 18, 18);
     height: 250px;
     color: white;
+    margin-bottom: 40px;
 }
 
-.image-placeholder > h1 {
+h1 {
     text-align: center;
 }
